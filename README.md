@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+https://github.com/hiruy535/CalculatorApps/invitations
+first name : hiruy
+last name : tamiru
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
