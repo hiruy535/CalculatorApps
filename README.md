@@ -2,6 +2,9 @@ https://github.com/hiruy535/CalculatorApps/invitations
 first name : hiruy
 last name : tamiru
 
+## Before You Run the Code
+ to install all the dependencies  
+### `npm install`  
 
 ## Available Scripts
 
