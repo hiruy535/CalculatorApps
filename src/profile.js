@@ -23,9 +23,10 @@ function handleInput(e) {
 
   function updateProfile(event) {
     event.preventDefault();
+    const id = props.currentUser && props.currentUser.id
     axios.defaults.xsrfCookieName = 'csrftoken'
     axios.defaults.xsrfHeaderName = 'X-CSRFToken'
-    axios.put('http://127.0.0.1:8000/CalAPI/api/change_profile/'+9+'/', registerInfo)
+    axios.put('http://127.0.0.1:8000/CalAPI/api/change_profile/'+id+'/', registerInfo)
         .then(response => {
             alert("Updated Successfully")
             props.setCurrentUser({
